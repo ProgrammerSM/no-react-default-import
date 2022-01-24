@@ -1,2 +1,2 @@
-# xgh-no-testing
+# xgh
 Testing is bad

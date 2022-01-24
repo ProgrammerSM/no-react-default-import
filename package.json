@@ -1,0 +1,15 @@
+{
+  "name": "eslint-plugin-xgh",
+  "version": "1.0.0",
+  "author": "fabioemoutinho@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/fabioemoutinho/xgh#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioemoutinho/xgh.git"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
