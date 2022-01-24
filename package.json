@@ -9,6 +9,13 @@
     "url": "git+https://github.com/fabioemoutinho/xgh.git"
   },
   "main": "index.js",
+  "description": "Testing is bad",
+  "bugs": {
+    "url": "https://github.com/fabioemoutinho/xgh/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "peerDependencies": {
     "eslint": ">= 3"
   }
