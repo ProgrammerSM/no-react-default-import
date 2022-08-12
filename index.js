@@ -4,6 +4,9 @@ module.exports = {
       meta: {
         type: 'problem',
         fixable: 'code',
+        messages: {
+          match: 'Do not use the default React import, use named or namespace import instead.'
+        },
         schema: [],
       },
       create(context) {
@@ -18,7 +21,7 @@ module.exports = {
               if (node.specifiers.length === 1 && node.specifiers[0].type === 'ImportDefaultSpecifier') {
                 context.report({
                   node,
-                  message: 'Do not use the default React import, use named or namespace import instead.',
+                  messageId: "match",
                   fix(fixer) {
                     return fixer.replaceText(node.specifiers[0], '* as React');
                   },
@@ -28,7 +31,7 @@ module.exports = {
               else if (node.specifiers.some((specifier) => specifier.type === 'ImportDefaultSpecifier')) {
                 context.report({
                   node,
-                  message: 'Do not use the default React import, use named or namespace import instead.',
+                  messageId: "match",
                 });
               }
             }
