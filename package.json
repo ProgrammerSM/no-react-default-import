@@ -2,9 +2,15 @@
   "name": "eslint-plugin-no-react-default-import",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "description": "Eslint rule to disallow react default import",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+  },
   "peerDependencies": {
-    "eslint": ">= 3"
-  }
+    "eslint": "3 - 8"
+  },
+  "files": [
+    "lib",
+  ]
 }
