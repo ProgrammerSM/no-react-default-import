@@ -1,21 +1,9 @@
 {
-  "name": "eslint-plugin-xgh",
+  "name": "eslint-plugin-no-react-default-import",
   "version": "1.0.0",
-  "author": "fabioemoutinho@gmail.com",
   "license": "MIT",
-  "homepage": "https://github.com/fabioemoutinho/xgh#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fabioemoutinho/xgh.git"
-  },
   "main": "index.js",
-  "description": "Testing is bad",
-  "bugs": {
-    "url": "https://github.com/fabioemoutinho/xgh/issues"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Eslint rule to disallow react default import",
   "peerDependencies": {
     "eslint": ">= 3"
   }
